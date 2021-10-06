@@ -93,3 +93,45 @@ body {
 .our-team {
   background-color: #f5f4fa;
 }
+
+.team-person {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19%;
+  color: #212121;
+}
+
+.team-position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19%;
+  color: #757575;
+}
+
+/* футер */
+
+.bottom-part {
+  background-color: #2f303a;
+}
+
+.map-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24p%;
+  color: #ffffff;
+}
+
+.link-contacts-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24%;
+  color: #ffffff, 60%;
+}
