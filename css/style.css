@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+/* ссылка на главную страницу */
+.homepage {
+  font-size: 26px;
+  line-height: 31%;
+  color: #2196f3;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+/* ссылки навигации */
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16%;
+  color: #212121;
+}
+/* ссылки контактов */
+.link-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16%;
+  color: #757575;
+}
+
+/* главное превью + ссылка для заказа */
+.main-page {
+  background-color: #2f303a;
+}
+
+.main-page-topic {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60%;
+  color: #ffffff;
+}
+
+/* кнопка заказать услугу */
+.button-order {
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30%;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* чем мы занимаемся */
+.what-we-do {
+  background-color: #ffffff;
+}
+
+.what-we-do-topics {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16%;
+  color: #212121;
+}
+
+.what-we-do-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24%;
+  color: #757575;
+}
+
+.main-topic {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42%;
+  color: #212121;
+}
+
+/* наша команда */
+.our-team {
+  background-color: #f5f4fa;
+}

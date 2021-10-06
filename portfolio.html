@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!--Шапка сайта-->
     <header>
-        <a href="/">WebStudio</a>
+        <a class="link" href="./index.html">WebStudio</a>
         <nav>
             <!--кнопки навигации-->
             <ul>
@@ -30,11 +37,13 @@
         <!-- фильтры портфолио -->
         <h2>Скрытый заголовок</h2>
         <section>
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
+            <ul>
+                <li><button type="button">Все</button></li>
+                <li><button type="button">Веб-сайты</button></li>
+                <li><button type="button">Приложения</button></li>
+                <li><button type="button">Дизайн</button></li>
+                <li><button type="button">Маркетинг</button></li>
+            </ul>
             <ul>
                 <li> <img src="./images/tehnokryak.jpg" width="370" height="294" alt="Технокряк">
                     <h3>Технокряк</h3>
@@ -76,16 +85,17 @@
             </ul>
         </section>
     </main>
-<!--футер сайта-->
-<footer>
-    <a href="/">WebStudio</a>
-    <address>
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+38099-111-11-11">+38 99 111 11 11</a></li>
-        </ul>
-    </address>
-</footer>
+    <!--футер сайта-->
+    <footer>
+        <a href="./index.html">WebStudio</a>
+        <address>
+            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <ul>
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+38099-111-11-11">+38 99 111 11 11</a></li>
+            </ul>
+        </address>
+    </footer>
 </body>
+
 </html>
