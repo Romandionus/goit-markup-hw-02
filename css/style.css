@@ -106,12 +106,12 @@ body {
 }
 
 .what-we-do-topic {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42%;
-  color: #212121;
+  line-height: 1.16;
+  color: var(--primary-text-color);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* наша команда */
@@ -119,44 +119,48 @@ body {
   background-color: #f5f4fa;
 }
 
-.team-person {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19%;
-  color: #212121;
+.our-team-topic {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.team-position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.our-team-person {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 19%;
-  color: #757575;
+  line-height: 1.18;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.our-team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
 
 /* футер */
 
-.bottom-part {
+.footer {
   background-color: #2f303a;
 }
 
-.map-address {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.address {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24p%;
-  color: #ffffff;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
 
-.link-contacts-footer {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.address-contact {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24%;
-  color: #ffffff, 60%;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
 }
