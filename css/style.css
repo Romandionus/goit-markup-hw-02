@@ -63,6 +63,19 @@ body {
   background-color: #2f303a;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .main-page-topic {
   font-weight: 900;
   font-size: 44px;
@@ -163,4 +176,36 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--header-color);
+}
+
+/* портфолио */
+
+.portfolio-main-content {
+  background-color: #e5e5e5;
+}
+
+.btn {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-content {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.portfolio-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }
