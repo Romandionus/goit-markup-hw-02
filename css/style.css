@@ -1,34 +1,61 @@
+:root {
+  --header-color: #ffffff;
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: #212121;
   background-color: #ffffff;
 }
+
+.header {
+  background-color: var(--header-color);
+}
+
 /* ссылка на главную страницу */
 .homepage {
-  font-size: 26px;
-  line-height: 31%;
-  color: #2196f3;
+  font-family: Raleway;
   font-weight: 700;
-  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+  letter-spacing: 0.03em;
+}
+
+.homepage-dark {
+  color: #212121;
+}
+.homepage-light {
+  color: #ffffff;
 }
 
 /* ссылки навигации */
-.nav-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16%;
-  color: #212121;
+
+.list {
+  list-style: none;
 }
-/* ссылки контактов */
-.link-contacts {
-  font-family: Roboto;
-  font-style: normal;
+
+.link {
+  text-decoration: none;
+}
+
+.nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16%;
-  color: #757575;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+/* ссылки контактов */
+.contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--second-text-color);
 }
 
 /* главное превью + ссылка для заказа */
@@ -37,50 +64,48 @@ body {
 }
 
 .main-page-topic {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60%;
-  color: #ffffff;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--header-color);
 }
 
 /* кнопка заказать услугу */
 .button-order {
   cursor: pointer;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30%;
+  line-height: 1.87;
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--header-color);
 }
 
 /* чем мы занимаемся */
-.what-we-do {
-  background-color: #ffffff;
+.our-qualities {
+  background-color: #e5e5e5;
 }
 
-.what-we-do-topics {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+.our-qualities-topic {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16%;
-  color: #212121;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.what-we-do-description {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.our-qualities-description {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24%;
-  color: #757575;
+  line-height: 1.71;
+  color: var(--second-text-color);
+  letter-spacing: 0.03em;
 }
 
-.main-topic {
+.what-we-do-topic {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
