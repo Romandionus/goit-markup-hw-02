@@ -167,8 +167,9 @@ body {
   background-color: var(--background-color-one);
 }
 
-.address {
+.map-address {
   font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
   color: var(--header-color);
 }
