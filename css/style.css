@@ -204,6 +204,10 @@ body {
   background-color: var(--background-text-color);
   color: var(--header-color);
 }
+.btn-active:focus {
+  background-color: var(--background-text-color);
+  color: var(--header-color);
+}
 .portfolio-content-description {
   line-height: 1.87;
   color: var(--second-text-color);
